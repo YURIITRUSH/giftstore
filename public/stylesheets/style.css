@@ -1,0 +1,54 @@
+body {
+  font-family: Gilroy, sans-serif;
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+}
+.lsfh-18 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.btn btn-outline-warning :hover{
+  border: 1px solid #F7941E;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.container {
+  max-width: 1440px;
+}
+.header {
+  background-color: #fff;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.article {
+  margin-top: 154px;
+}
+.article h2 {
+  padding-bottom: 23px;
+}
+.article button {
+  margin-bottom: 130px;
+}
+.title {
+  font-size: 56px;
+  line-height: 69px;
+  margin-bottom: 36px;
+}
+.bg{
+  background: #F1F1F2;
+}
+.text {
+  margin-bottom: 50px;
+}
+.hero {
+    display: flex;
+    height: 600px;
+    overflow: hidden;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}

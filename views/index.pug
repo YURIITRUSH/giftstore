@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .header.fixed-top
+    .container.align-items-center
+      include ./components/navigation.pug
+  <section id="hero" class="hero bg">
+    .container
+      .row
+        .col-lg-6.article
+          .title
+            h1 Find a gift for your wife or girlfriend
+          .text
+            p Struggling to find a gift for your wife or girlfriend? No problem!
+          <button type="button" class="btn cw btn-warning fslh-18 mb-130">Find gift now</button>
+        .col-lg-6 
+          .hero-image
+            img(src="https://images.unsplash.com/photo-1564166820921-2b102dad13fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80", alt="hero image")
+  </section>
+  <section id="hero" class="hero bg">
+    .container
+      .row
+        .col-lg-6 
+          .hero-image
+            img(src="https://images.unsplash.com/photo-1564166820921-2b102dad13fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80", alt="hero image")
+        .col-lg-6.article
+          h2 How we work
+          p We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.
+          <button type="button" class="btn btn-outline-warning">Learn More</button>
+  </section>
